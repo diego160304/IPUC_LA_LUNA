@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.navbar-nav {
+  justify-content: flex-start; /* Alinea los elementos del menú a la izquierda */
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+@media (max-width: 768px) { 
+  .navbar-collapse {
+    flex-direction: column; /* Apila los elementos verticalmente en pantallas pequeñas */
+    align-items: flex-start; /* Alinea los elementos a la izquierda en pantallas pequeñas */
+  }
+
+  .navbar-nav {
+    width: auto; /* Ajusta el ancho del menú en pantallas pequeñas */
+  }
+}
