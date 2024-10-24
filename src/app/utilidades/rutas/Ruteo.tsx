@@ -3,7 +3,7 @@ import { Inicio } from "../../componentes/contenedor/Inicio";
 import { Miembros } from "../../componentes/contenedor/Miembros"; 
 import { Oracion } from "../../componentes/contenedor/Oracion"; 
 import { Acerca_nosotros } from "../../componentes/contenedor/Acerca_nosotros"; 
-import { Login } from "../../componentes/contenedor/login"; 
+import { Login } from "../../componentes/contenedor/Login"; 
 import { DirectivaJovenes } from "../../componentes/contenedor/DirectivaJovenes"; 
 
 
