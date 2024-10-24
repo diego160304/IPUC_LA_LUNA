@@ -1,8 +1,5 @@
 import "../../../App.css";
 import { Link } from "react-router-dom";
-const Logo = () => {
-  return <img src="../../../public/icono/ipucLogo.ico" width="30" height="24" />; // Asegúrate de que la ruta sea correcta
-};
 
 export const Cabecera = () => {
   return (
@@ -38,10 +35,11 @@ export const Cabecera = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/oracion">
                   Oración
-                </a>
+                </Link>
               </li>
+
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -54,14 +52,9 @@ export const Cabecera = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Junta Local
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Jovenes
-                    </a>
+                    <Link className="dropdown-item" to="/directivaJovenes">
+                      Jóvenes
+                    </Link>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
@@ -95,15 +88,15 @@ export const Cabecera = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true">
+                <Link className="nav-link" to="/acerca_nosotros">
                   Acerca de nosotros
-                </a>
+                </Link>
               </li>
             </ul>
 
-            <button className="btn btn-outline-success" type="submit">
+            <Link className="btn btn-outline-success" to="/login">
               Iniciar sesión
-            </button>
+            </Link>
           </div>
         </div>
       </nav>
