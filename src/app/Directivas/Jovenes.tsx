@@ -19,11 +19,11 @@ export const Jovenes = () => {
           </div>
         </div>
       </div>
-      <div className="container-md  card-group">
+      <div className="container m-auto mt-lg-2  card-group">
         <div className="card">
           <img
             src={NatanaelFoto}
-            className="card-img-top shadow-lg p-1 mb-5 bg-body-tertiary rounded-circle"
+            className="card-img-top shadow-lg p-1 mb-1 bg-body-tertiary rounded-circle"
             alt="..."
           />
           <div className="card-body">
@@ -32,17 +32,17 @@ export const Jovenes = () => {
           </div>
           <div className="card-footer">
             <small className="text-body-secondary">
-              <a href="https://www.facebook.com/">Facebook</a>
+              <a href="https://www.facebook.com/natanael.romero.9843">Facebook</a>
             </small>
           </div>
           <small className="text-body-secondary">
-            <a href="https://instagram.com/">Instagram</a>
+            <a href="https://www.instagram.com/natanaelromeroh/">Instagram</a>
           </small>
         </div>
         <div className="card">
           <img
             src={ValeriaFoto}
-            className="card-img-top shadow-lg p-1 mb-5 bg-body-tertiary rounded-circle"
+            className="card-img-top shadow-lg p-1 mb-1 bg-body-tertiary rounded-circle"
             alt="..."
           />
           <div className="card-body">
@@ -51,17 +51,17 @@ export const Jovenes = () => {
           </div>
           <div className="card-footer">
             <small className="text-body-secondary">
-              <a href="https://www.facebook.com/">Facebook</a>
+              <a href="https://www.facebook.com/ValeriaRedondo160914080">Facebook</a>
             </small>
           </div>
           <small className="text-body-secondary">
-            <a href="https://instagram.com/">Instagram</a>
+            <a href="https://www.instagram.com/val_redondo05/">Instagram</a>
           </small>
         </div>
         <div className="card">
           <img
             src={AlejandroFoto}
-            className="card-img-top shadow-lg p-1 mb-5 bg-body-tertiary rounded-circle"
+            className="card-img-top shadow-lg p-1 mb-1 bg-body-tertiary rounded-circle"
             alt="..."
           />
           <div className="card-body">
@@ -70,17 +70,17 @@ export const Jovenes = () => {
           </div>
           <div className="card-footer">
             <small className="text-body-secondary">
-              <a href="https://www.facebook.com/">Facebook</a>
+              <a href="https://www.facebook.com/profile.php?id=100067566891029">Facebook</a>
             </small>
           </div>
-          <small className="text-body-secondary">
+      {/*     <small className="text-body-secondary">
             <a href="https://instagram.com/">Instagram</a>
-          </small>
+          </small> */}
         </div>
         <div className="card">
           <img
             src={DiegoFoto}
-            className="card-img-top shadow-lg p-1 mb-5 bg-body-tertiary rounded-circle"
+            className="card-img-top shadow-lg p-1 mb-1 bg-body-tertiary rounded-circle"
             alt="..."
           />
           <div className="card-body ">
@@ -93,7 +93,7 @@ export const Jovenes = () => {
             </small>
           </div>
           <small className="text-body-secondary">
-            <a href="https://instagram.com/">Instagram</a>
+            <a href="https://www.instagram.com/diego_puerta_16/">Instagram</a>
           </small>
         </div>
       </div>
