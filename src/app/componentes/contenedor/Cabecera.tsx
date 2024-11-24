@@ -58,8 +58,8 @@ export const Cabecera = () => {
                     </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Dorcas
+                    <a className="dropdown-item" href="/Musica">
+                      Musica
                     </a>
                   </li>
                   <li>
@@ -82,8 +82,8 @@ export const Cabecera = () => {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/Musica">
-                      Música
+                    <a className="dropdown-item" href="#">
+                      otros
                     </a>
                   </li>
                 </ul>
