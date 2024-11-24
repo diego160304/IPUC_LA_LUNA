@@ -5,6 +5,7 @@ import { Eventos } from "../../componentes/contenedor/Eventos";
 import { Acerca_nosotros } from "../../componentes/contenedor/Acerca_nosotros"; 
 import { Login } from "../../componentes/contenedor/Login"; 
 import { Jovenes } from "../../Directivas/Jovenes"; 
+import { Musica } from "../../Directivas/Musica"; 
 
 
 
@@ -17,6 +18,7 @@ export const Ruteo = () => {
       <Route path="/acerca_nosotros" element={<Acerca_nosotros/>} />
       <Route path="/login" element={<Login/>} />
       <Route path="/Jovenes" element={<Jovenes/>} />
+      <Route path="/Musica" element={<Musica/>} />
     </Routes>
   );
 };

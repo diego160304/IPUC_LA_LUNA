@@ -82,8 +82,8 @@ export const Cabecera = () => {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Otras
+                    <a className="dropdown-item" href="/Musica">
+                      Música
                     </a>
                   </li>
                 </ul>

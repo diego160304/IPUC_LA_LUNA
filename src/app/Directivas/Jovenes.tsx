@@ -93,7 +93,7 @@ export const Jovenes = () => {
             </small>
           </div>
           <small className="text-body-secondary">
-            <a href="https://www.instagram.com/diego_puerta_16/">Instagram</a>
+            <a href="https://www.instagram.com/diego_puerta_16">Instagram</a>
           </small>
         </div>
       </div>
