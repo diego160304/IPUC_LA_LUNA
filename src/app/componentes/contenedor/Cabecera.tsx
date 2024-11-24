@@ -58,9 +58,9 @@ export const Cabecera = () => {
                     </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/Musica">
+                    <Link className="dropdown-item" to="/Musica">
                       Musica
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
