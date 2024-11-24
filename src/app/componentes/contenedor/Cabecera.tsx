@@ -1,4 +1,5 @@
 import "../../../App.css";
+import miLogo from "../../../../public/icono/ipucLogo.ico";
 import { Link } from "react-router-dom";
 
 export const Cabecera = () => {
@@ -7,7 +8,7 @@ export const Cabecera = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            IPUC
+            <img src={miLogo} alt="El Logo" width="48,35" height="33,5" />
           </Link>
           <button
             className="navbar-toggler"
@@ -18,12 +19,12 @@ export const Cabecera = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon container-lg"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarScroll">
             <ul
-              className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-              style={{ "--bs-scroll-height": "100px" } as React.CSSProperties}
+              className="navbar-nav me-auto my-0 my-lg-0 navbar-nav-scroll"
+              style={{ "--bs-scroll-height": "1000px" } as React.CSSProperties}
             >
               <li className="nav-item">
                 <Link
@@ -35,8 +36,8 @@ export const Cabecera = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/oracion">
-                  Oración
+                <Link className="nav-link" to="/Eventos">
+                  Eventos
                 </Link>
               </li>
 
@@ -52,7 +53,7 @@ export const Cabecera = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item" to="/directivaJovenes">
+                    <Link className="dropdown-item" to="/Jovenes">
                       Jóvenes
                     </Link>
                   </li>
@@ -94,9 +95,9 @@ export const Cabecera = () => {
               </li>
             </ul>
 
-            <Link className="btn btn-outline-success" to="/login">
+            {/* <Link className="btn btn-outline-success" to="/login">
               Iniciar sesión
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
