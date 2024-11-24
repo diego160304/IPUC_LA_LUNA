@@ -21,16 +21,6 @@ export const Footer = () => {
                   Contactos
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true">
-                  Disabled
-                </a>
-              </li>
             </ul>
           </div>
           <div className="card-body">
@@ -43,7 +33,7 @@ export const Footer = () => {
               Enviar correo
             </a>
           </div>
-        </div>  
+        </div>
       </div>
     </>
   );

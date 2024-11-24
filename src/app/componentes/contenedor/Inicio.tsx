@@ -46,22 +46,11 @@ export const Inicio = () => {
               <img src={ipucGeneral} className="card-img" alt="Ipuc General" />
               <div className="card-body">
                 <h5 className="card-title">Miembros</h5>
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                <p className="card-text">No se que poner en esta parte</p>
               </div>
             </div>
             <div className="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>This is the first item's accordion body.</strong>
             </div>
           </div>
         </div>
@@ -75,7 +64,7 @@ export const Inicio = () => {
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseTwo"
             >
-              Accordion Item #2
+              Parte 2
             </button>
           </h2>
           <div
@@ -83,14 +72,7 @@ export const Inicio = () => {
             className="accordion-collapse collapse"
           >
             <div className="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>No puedo hacerlo todo</strong>
             </div>
           </div>
         </div>
@@ -104,7 +86,7 @@ export const Inicio = () => {
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseThree"
             >
-              Accordion Item #3
+              Parte 3
             </button>
           </h2>
           <div
@@ -112,14 +94,7 @@ export const Inicio = () => {
             className="accordion-collapse collapse"
           >
             <div className="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>Relajate</strong>
             </div>
           </div>
         </div>
