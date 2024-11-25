@@ -6,7 +6,7 @@ export const Inicio = () => {
   return (
     <div>
       <Cabecera />
-      <div className="container mt-2">
+      <div className="container mt-5">
         <div className="card">
           <div className="card-body">
             <h2 className="card-title text-center">SOMOS IPUC</h2>
